@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kazakhstan Destinations</title>
+</head>
+<body>
+    <!-- Background and Navbar -->
+    <div class="bg-cover bg-center min-h-screen" style="background-image: url('./img/bg.jpg');">
+        <nav class="bg-black bg-opacity-50 border-gray-200">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#" class="flex items-center space-x-3">
+                    <img src="img/favicon.jpg" class="h-8" alt="Logo">
+                    <span class="text-2xl font-semibold text-white">Kazakhstan Tourist</span>
+                </a>
+                <!-- Mobile menu button -->
+                <button data-collapse-toggle="navbar-menu" type="button" class="md:hidden inline-flex items-center p-2 text-white hover:bg-gray-700 rounded-lg">
+                    <span class="sr-only">Open menu</span>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <!-- Navigation Menu -->
+                <div class="hidden w-full md:block md:w-auto" id="navbar-menu">
+                    <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 mt-4 md:mt-0">
+                        <li><a href="index.html" class="text-white hover:text-blue-400">Home</a></li>
+                        <li><a href="delicacies.html" class="text-white hover:text-blue-400">Delicacies</a></li>
+                        <li><a href="destination.html" class="text-white hover:text-blue-400">Destination</a></li>
+                        <li><a href="information.html" class="text-white hover:text-blue-400">Information</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Description Section -->
+        <div class="text-center text-white py-12">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Discover Kazakhstan</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto px-4">
+                From modern cities to ancient Silk Road sites, Kazakhstan offers diverse attractions spanning vast steppes, 
+                mountains, and lakes. Experience the perfect blend of natural wonders and cultural heritage.
+            </p>
+        </div>
+
+        <!-- Destinations Content -->
+        <div class="container mx-auto px-4 pb-12">
+            <!-- Why Visit Section -->
+            <div class="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-8 mb-8">
+                <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Why Choose Kazakhstan?</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Diverse Landscapes -->
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold mb-2">Diverse Landscapes</h3>
+                        <p class="text-gray-600">From snow-capped mountains to vast deserts, experience dramatic landscapes.</p>
+                    </div>
+
+                    <!-- Cultural Heritage -->
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold mb-2">Rich Heritage</h3>
+                        <p class="text-gray-600">Discover ancient Silk Road sites and traditional nomadic culture.</p>
+                    </div>
+
+                    <!-- Modern Meets Traditional -->
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold mb-2">Unique Contrasts</h3>
+                        <p class="text-gray-600">Experience futuristic cities alongside ancient traditions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destinations Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Nur-Sultan -->
+                <div class="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="img/des_1.jpeg" alt="Nur-Sultan" class="h-64 w-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6">
+                            <h3 class="text-2xl font-bold mb-2">Nur-Sultan (Astana)</h3>
+                            <p class="text-gray-600 mb-4">The futuristic capital city showcases stunning modern architecture.</p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• Bayterek Tower</li>
+                                <li>• Khan Shatyr</li>
+                                <li>• Palace of Peace</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Almaty -->
+                <div class="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="img/des_2.jpeg" alt="Almaty" class="h-64 w-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6">
+                            <h3 class="text-2xl font-bold mb-2">Almaty</h3>
+                            <p class="text-gray-600 mb-4">Former capital surrounded by the Tian Shan mountains.</p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• Medeu Ice Rink</li>
+                                <li>• Kok-Tobe Hill</li>
+                                <li>• Zenkov Cathedral</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charyn Canyon -->
+                <div class="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="img/des_3.jpeg" alt="Charyn Canyon" class="h-64 w-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6">
+                            <h3 class="text-2xl font-bold mb-2">Charyn Canyon</h3>
+                            <p class="text-gray-600 mb-4">Known as the Grand Canyon's little brother, featuring dramatic rock formations and hiking trails.</p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• Dramatic rock formations</li>
+                                <li>• Hiking trails</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Baikonur -->
+                <div class="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="img/des_4.jpeg" alt="Baikonur Cosmodrome" class="h-64 w-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6">
+                            <h3 class="text-2xl font-bold mb-2">Baikonur Cosmodrome</h3>
+                            <p class="text-gray-600 mb-4">World's first and largest operational space launch facility with museum and viewing opportunities.</p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li>• Museum</li>
+                                <li>• Viewing opportunities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
